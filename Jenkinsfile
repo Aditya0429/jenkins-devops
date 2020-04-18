@@ -20,7 +20,7 @@ pipeline {
 			}
 		}
 
-	} post {
+	 post {
 		always 'Im Awesome. I run alwyas'
 	}
 	sucess {
