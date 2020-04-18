@@ -1,6 +1,3 @@
-//Scripted
-
-//Declarative
 pipeline {
 	agent any
     stages {
@@ -19,7 +16,6 @@ pipeline {
 				echo "Intergaration Test"
 			}
 		}
-
 	 post {
 		always 'Im Awesome. I run alwyas'
 	}
@@ -29,5 +25,7 @@ pipeline {
 	failure {
 		echo 'I run whn you fail'
 	}
+    }
 }
+
 }
