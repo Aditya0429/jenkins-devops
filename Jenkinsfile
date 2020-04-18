@@ -22,8 +22,8 @@ pipeline {
 		always {
 		 echo 'Im Awesome. I run alwyas'
 		}
-	  sucess {
-		echo ' I run on sucess'
+	  success {
+		echo 'I run on sucess'
 	  	}
 	  failure {
 		echo 'I run whn you fail'
