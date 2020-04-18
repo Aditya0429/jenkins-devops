@@ -16,16 +16,17 @@ pipeline {
 				echo "Intergaration Test"
 			}
 		}
-	 post {
-		always 'Im Awesome. I run alwyas'
-	}
-	sucess {
-		echo ' I run on sucess'
-	}
-	failure {
-		echo 'I run whn you fail'
-	}
-    }
-}
 
+	} post {
+		always {
+			'Im Awesome. I run alwyas'
+	}
+	  sucess {
+		echo ' I run on sucess'
+	  }
+	  failure {
+		echo 'I run whn you fail'
+	  }
+    }	
+ 
 }
